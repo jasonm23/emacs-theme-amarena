@@ -10,7 +10,7 @@ The theme uses [Autothemer](https://github.com/jasonm23/autothemer) which may ne
 M-x package-install <return> autothemer <return>
 ```
 
-Clone this repo. In Emacs (v26.1 and above) do:
+To install this theme, clone this repo. In Emacs (v26.1 and above) do:
 
 ```emacs-lisp
 M-x load-theme <return> amarena-theme.el

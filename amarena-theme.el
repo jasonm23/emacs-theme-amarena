@@ -1,8 +1,25 @@
-;;; commentary: amarena based theme
+;;; amarena-theme.el --- A theme based on Amazing Amarena -*- lexical-binding: t; -*-
+;;
+;; Copyright (C) 2022 Jason M23
+;;
+;; Author: Mikael Konradsson
+;;
+;; Created: August 29, 2022
+;;
+;; Version: 0.0.1
+;; Keywords: theme
+;; Homepage: TODO
+;; Package-Requires: ((emacs "26.1") (autothemer "0.2"))
+;;
+;; This file is not part of GNU Emacs.
+;;
+;;; Commentary:
+;;
+;;  Description
+;;
+;;; Code:
 
 (require 'autothemer)
-
-;;; code:
 
 (autothemer-deftheme
 amarena "A theme based on amarena amazing color scheme"
@@ -347,9 +364,7 @@ amarena "A theme based on amarena amazing color scheme"
   (popup-menu-face (:background black :foreground rosewater))
   (popup-menu-mouse-face (:background blue :foreground black :bolt t))
   (popup-menu-selection-face (:background flamingo :foreground black))
-  (popup-isearch-match (:background mauve :foreground black :bold t))
-  
-))
+  (popup-isearch-match (:background mauve :foreground black :bold t))))
 
 ;;;###autoload
 (and load-file-name
