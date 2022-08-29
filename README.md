@@ -14,7 +14,7 @@ M-x package-install <return> autothemer <return>
 
 To install this theme, clone this repo. In Emacs (v26.1 and above) do:
 
-```emacs-lisp
+```lisp
 M-x load-theme <return> amarena-theme.el
 ```
 
