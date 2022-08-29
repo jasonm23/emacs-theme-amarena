@@ -1,5 +1,7 @@
 # Amarena theme for Emacs
 
+![](https://imgur.com/J5hkruW.png)
+
 A theme based on Amarena Amazing color scheme.
 
 ## Install
